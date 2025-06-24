@@ -1,0 +1,248 @@
+
+> react-kavia@0.1.0 start
+> cross-env EDIT_MODE=true webpack serve --config .ve/webpack.config.js --mode development
+
+<i> [webpack-dev-server] Project is running at:
+<i> [webpack-dev-server] Loopback: http://localhost:3000/, http://[::1]:3000/
+<i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:3000/
+<i> [webpack-dev-server] Content not from webpack is served from './public' directory
+Injecting EditorRootWrapper import: ../.ve/EditorRootWrapper
+asset bundle.js 1.39 MiB [emitted] (name: main)
+asset index.html 1.98 KiB [emitted]
+runtime modules 27.5 KiB 14 modules
+modules by path ./node_modules/ 1.24 MiB 31 modules
+modules by path ./src/ 10.3 KiB
+  modules by path ./src/*.css 7.49 KiB 4 modules
+  modules by path ./src/*.js 2.77 KiB
+    ./src/index.js 530 bytes [built] [code generated]
+    ./src/App.js 2.25 KiB [built] [code generated]
+modules by path ./.ve/ 15.1 KiB
+  modules by path ./.ve/*.js 10.6 KiB 2 modules
+  modules by path ./.ve/*.css 2.93 KiB
+    ./.ve/EditorOverlay.css 2.25 KiB [built] [code generated]
+    ./node_modules/css-loader/dist/cjs.js!./.ve/EditorOverlay.css 697 bytes [built] [code generated]
+  ./.ve/EditorOverlay.jsx 1.58 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 1227 ms
+assets by status 1.98 KiB [cached] 1 asset
+assets by path *.js 1.49 MiB
+  asset bundle.js 1.44 MiB [emitted] (name: main)
+  asset main.fcbe181a781e6b474548.hot-update.js 50.3 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.fcbe181a781e6b474548.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.49 MiB = bundle.js 1.44 MiB main.fcbe181a781e6b474548.hot-update.js 50.3 KiB
+cached modules 1.26 MiB [cached] 41 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 29.6 KiB
+  modules by path ./src/pages/*.js 16.7 KiB
+    ./src/pages/SignIn.js 7.32 KiB [built] [code generated]
+    ./src/pages/ComposeLetter.js 4.55 KiB [built] [code generated]
+    ./src/pages/ScheduledLetters.js 4.84 KiB [built] [code generated]
+  modules by path ./src/*.js 5.01 KiB
+    ./src/App.js 4.65 KiB [built] [code generated]
+    ./src/theme.js 365 bytes [built] [code generated]
+  ./src/contexts/AuthContext.js 3.05 KiB [built] [code generated]
+  ./src/components/NavBar.js 4.22 KiB [built] [code generated]
+  ./src/utils/letters.js 615 bytes [built] [code generated]
+
+ERROR in ./src/App.js 3:0-84
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/futureletter-67210-8562e977/future_self_letter_frontend_workspace/future_self_letter_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/NavBar.js 2:0-66
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/futureletter-67210-8562e977/future_self_letter_frontend_workspace/future_self_letter_frontend/src/components'
+ @ ./src/App.js 5:0-41 60:37-43
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/pages/ComposeLetter.js 3:0-57
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/futureletter-67210-8562e977/future_self_letter_frontend_workspace/future_self_letter_frontend/src/pages'
+ @ ./src/App.js 7:0-50 33:33-46
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/pages/ScheduledLetters.js 3:0-44
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/futureletter-67210-8562e977/future_self_letter_frontend_workspace/future_self_letter_frontend/src/pages'
+ @ ./src/App.js 8:0-56 39:33-49
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/pages/SignIn.js 3:0-57
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/futureletter-67210-8562e977/future_self_letter_frontend_workspace/future_self_letter_frontend/src/pages'
+ @ ./src/App.js 6:0-36 27:33-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+5 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 5 errors in 321 ms
+Injecting EditorRootWrapper import: ../.ve/EditorRootWrapper
+assets by status 1.98 KiB [cached] 1 asset
+assets by path *.js 1.44 MiB
+  asset bundle.js 1.44 MiB [emitted] (name: main)
+  asset main.af8c9acb256a09e28567.hot-update.js 2.78 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.af8c9acb256a09e28567.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.44 MiB = bundle.js 1.44 MiB main.af8c9acb256a09e28567.hot-update.js 2.78 KiB
+cached modules 1.29 MiB [cached] 48 modules
+runtime modules 27.5 KiB 14 modules
+./src/index.js 556 bytes [built] [code generated]
+
+ERROR in ./src/App.js 3:0-84
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/futureletter-67210-8562e977/future_self_letter_frontend_workspace/future_self_letter_frontend/src'
+ @ ./src/index.js 5:0-24 13:32-35
+
+ERROR in ./src/components/NavBar.js 2:0-66
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/futureletter-67210-8562e977/future_self_letter_frontend_workspace/future_self_letter_frontend/src/components'
+ @ ./src/App.js 5:0-41 60:37-43
+ @ ./src/index.js 5:0-24 13:32-35
+
+ERROR in ./src/pages/ComposeLetter.js 3:0-57
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/futureletter-67210-8562e977/future_self_letter_frontend_workspace/future_self_letter_frontend/src/pages'
+ @ ./src/App.js 7:0-50 33:33-46
+ @ ./src/index.js 5:0-24 13:32-35
+
+ERROR in ./src/pages/ScheduledLetters.js 3:0-44
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/futureletter-67210-8562e977/future_self_letter_frontend_workspace/future_self_letter_frontend/src/pages'
+ @ ./src/App.js 8:0-56 39:33-49
+ @ ./src/index.js 5:0-24 13:32-35
+
+ERROR in ./src/pages/SignIn.js 3:0-57
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/futureletter-67210-8562e977/future_self_letter_frontend_workspace/future_self_letter_frontend/src/pages'
+ @ ./src/App.js 6:0-36 27:33-39
+ @ ./src/index.js 5:0-24 13:32-35
+
+5 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 5 errors in 48 ms
+Injecting EditorRootWrapper import: ../.ve/EditorRootWrapper
+assets by path *.js 1.44 MiB
+  asset bundle.js 1.44 MiB [emitted] (name: main)
+  asset main.cb7a31e6f4e577094ce4.hot-update.js 854 bytes [emitted] [immutable] [hmr] (name: main)
+asset index.html 1.98 KiB [emitted]
+asset main.cb7a31e6f4e577094ce4.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.44 MiB = bundle.js 1.44 MiB main.cb7a31e6f4e577094ce4.hot-update.js 854 bytes
+cached modules 1.25 MiB [cached] 37 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 42.3 KiB
+  modules by path ./src/ 30.1 KiB
+    modules by path ./src/*.js 5.55 KiB 3 modules
+    modules by path ./src/pages/*.js 16.7 KiB
+      ./src/pages/SignIn.js 7.32 KiB [built]
+      + 2 modules
+    ./src/contexts/AuthContext.js 3.05 KiB [built]
+    ./src/components/NavBar.js 4.22 KiB [built]
+    ./src/utils/letters.js 615 bytes [built]
+  modules by path ./.ve/ 12.2 KiB
+    ./.ve/EditorRootWrapper.js 2.68 KiB [built]
+    ./.ve/EditorOverlay.jsx 1.58 KiB [built]
+    ./.ve/SidePanel.js 7.93 KiB [built]
+
+ERROR in ./src/App.js 3:0-84
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/futureletter-67210-8562e977/future_self_letter_frontend_workspace/future_self_letter_frontend/src'
+ @ ./src/index.js 5:0-24 13:32-35
+
+ERROR in ./src/components/NavBar.js 2:0-66
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/futureletter-67210-8562e977/future_self_letter_frontend_workspace/future_self_letter_frontend/src/components'
+ @ ./src/App.js 5:0-41 60:37-43
+ @ ./src/index.js 5:0-24 13:32-35
+
+ERROR in ./src/pages/ComposeLetter.js 3:0-57
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/futureletter-67210-8562e977/future_self_letter_frontend_workspace/future_self_letter_frontend/src/pages'
+ @ ./src/App.js 7:0-50 33:33-46
+ @ ./src/index.js 5:0-24 13:32-35
+
+ERROR in ./src/pages/ScheduledLetters.js 3:0-44
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/futureletter-67210-8562e977/future_self_letter_frontend_workspace/future_self_letter_frontend/src/pages'
+ @ ./src/App.js 8:0-56 39:33-49
+ @ ./src/index.js 5:0-24 13:32-35
+
+ERROR in ./src/pages/SignIn.js 3:0-57
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/futureletter-67210-8562e977/future_self_letter_frontend_workspace/future_self_letter_frontend/src/pages'
+ @ ./src/App.js 6:0-36 27:33-39
+ @ ./src/index.js 5:0-24 13:32-35
+
+5 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 5 errors in 282 ms
+assets by status 1.98 KiB [cached] 1 asset
+assets by path *.js 1.44 MiB
+  asset bundle.js 1.44 MiB [emitted] (name: main)
+  asset main.9171056bfd1e4c9293c6.hot-update.js 854 bytes [emitted] [immutable] [hmr] (name: main)
+asset main.9171056bfd1e4c9293c6.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.44 MiB = bundle.js 1.44 MiB main.9171056bfd1e4c9293c6.hot-update.js 854 bytes
+cached modules 1.29 MiB [cached] 49 modules
+runtime modules 27.5 KiB 14 modules
+
+LOG from webpack.FileSystemInfo
+<w> Managed item /home/kavia/workspace/code-generation/futureletter-67210-8562e977/future_self_letter_frontend_workspace/future_self_letter_frontend/node_modules/react-router-dom isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
++ 13 hidden lines
+
+ERROR in ./src/App.js 3:0-84
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/futureletter-67210-8562e977/future_self_letter_frontend_workspace/future_self_letter_frontend/src'
+ @ ./src/index.js 5:0-24 13:32-35
+
+ERROR in ./src/components/NavBar.js 2:0-66
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/futureletter-67210-8562e977/future_self_letter_frontend_workspace/future_self_letter_frontend/src/components'
+ @ ./src/App.js 5:0-41 60:37-43
+ @ ./src/index.js 5:0-24 13:32-35
+
+ERROR in ./src/pages/ComposeLetter.js 3:0-57
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/futureletter-67210-8562e977/future_self_letter_frontend_workspace/future_self_letter_frontend/src/pages'
+ @ ./src/App.js 7:0-50 33:33-46
+ @ ./src/index.js 5:0-24 13:32-35
+
+ERROR in ./src/pages/ScheduledLetters.js 3:0-44
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/futureletter-67210-8562e977/future_self_letter_frontend_workspace/future_self_letter_frontend/src/pages'
+ @ ./src/App.js 8:0-56 39:33-49
+ @ ./src/index.js 5:0-24 13:32-35
+
+ERROR in ./src/pages/SignIn.js 3:0-57
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/futureletter-67210-8562e977/future_self_letter_frontend_workspace/future_self_letter_frontend/src/pages'
+ @ ./src/App.js 6:0-36 27:33-39
+ @ ./src/index.js 5:0-24 13:32-35
+
+5 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 5 errors in 61 ms
+assets by status 1.98 KiB [cached] 1 asset
+assets by path *.js 2.15 MiB
+  asset bundle.js 1.77 MiB [emitted] (name: main)
+  asset main.cb7a31e6f4e577094ce4.hot-update.js 386 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.cb7a31e6f4e577094ce4.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 2.15 MiB = bundle.js 1.77 MiB main.cb7a31e6f4e577094ce4.hot-update.js 386 KiB
+cached modules 1.27 MiB [cached] 44 modules
+runtime modules 28.7 KiB 15 modules
+javascript modules 333 KiB
+  modules by path ./src/ 25.6 KiB
+    modules by path ./src/pages/*.js 16.7 KiB
+      ./src/pages/SignIn.js 7.32 KiB [code generated]
+      ./src/pages/ComposeLetter.js 4.55 KiB [code generated]
+      ./src/pages/ScheduledLetters.js 4.84 KiB [code generated]
+    ./src/App.js 4.65 KiB [code generated]
+    ./src/components/NavBar.js 4.22 KiB [code generated]
+  built modules 307 KiB [built]
+    ./node_modules/react-router-dom/dist/index.js 55.4 KiB [built] [code generated]
+    ./node_modules/react-router/dist/index.js 59.3 KiB [built] [code generated]
+    ./node_modules/@remix-run/router/dist/router.js 193 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 245 ms
+Injecting EditorRootWrapper import: ../.ve/EditorRootWrapper
+assets by path *.js 1.77 MiB
+  asset bundle.js 1.77 MiB [emitted] (name: main)
+  asset main.bcb7afc1491186c3991b.hot-update.js 854 bytes [emitted] [immutable] [hmr] (name: main)
+asset index.html 1.98 KiB [emitted]
+asset main.bcb7afc1491186c3991b.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.77 MiB = bundle.js 1.77 MiB main.bcb7afc1491186c3991b.hot-update.js 854 bytes
+cached modules 1.55 MiB [cached] 40 modules
+runtime modules 28.7 KiB 15 modules
+javascript modules 42.3 KiB
+  modules by path ./src/ 30.1 KiB
+    modules by path ./src/*.js 5.55 KiB 3 modules
+    modules by path ./src/pages/*.js 16.7 KiB
+      ./src/pages/SignIn.js 7.32 KiB [built]
+      + 2 modules
+    ./src/contexts/AuthContext.js 3.05 KiB [built]
+    ./src/components/NavBar.js 4.22 KiB [built]
+    ./src/utils/letters.js 615 bytes [built]
+  modules by path ./.ve/ 12.2 KiB
+    ./.ve/EditorRootWrapper.js 2.68 KiB [built]
+    ./.ve/EditorOverlay.jsx 1.58 KiB [built]
+    ./.ve/SidePanel.js 7.93 KiB [built]
+webpack 5.99.9 compiled successfully in 293 ms

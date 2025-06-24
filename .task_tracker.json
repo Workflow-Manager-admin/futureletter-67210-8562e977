@@ -1,0 +1,5 @@
+{
+  "task_description": "{'description': 'A web application that allows users to write a letter to their future selves.', 'containers': [{'container_name': 'future_self_letter_frontend', 'platform': 'web', 'framework': 'react', 'description': 'Web interface for users to compose, save, and view their future self letters.', 'interfaces': 'User-facing web application', 'relative_path': 'future_self_letter_frontend_workspace', 'dependencies': [], 'container_type': 'frontend', 'container_details': {'features': ['User authentication', 'Compose letter interface', 'View scheduled letters', 'Responsive design'], 'colors': {'primary': '#05004d', 'secondary': '#00ffee', 'accent': '#FF69B4'}, 'theme': 'light', 'layout_description': 'Clean layout with a prominent letter editor, dashboard displaying scheduled letters, and easy navigation bar.', 'style': 'modern'}}], '3rd_party_services': [], 'figma_components': '', 'manifest_path': '/home/kavia/workspace/code-generation/.project_manifest.yaml'}",
+  "tasks": {},
+  "next_task_id": 1
+}
